@@ -39,7 +39,3 @@ Esta aplicación permite llevar un registro de asistencia semanal para estudiant
     streamlit run app.py
     ```
     La aplicación se abrirá automáticamente en tu navegador web. La base de datos `asistencia.db` se creará en el mismo directorio la primera vez que se ejecute la aplicación.
-
-## Desplegada en Streamlit Cloud
-
-    https://asistenciappipes.streamlit.app/
