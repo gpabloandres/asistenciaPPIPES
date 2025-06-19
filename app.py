@@ -157,9 +157,9 @@ def render_attendance_cell(student_id, date_obj, key_prefix):
             st.toast(f"Asistencia de {student_name} para {date_obj.strftime('%d/%m')} guardada.", icon="💾")
 
         if estado == 'Presente':
-            st.markdown(f":large_green_circle: Presente")
+            st.markdown(":large_green_circle: Presente")
         elif estado == 'Ausente':
-            st.markdown(f":red_circle: Ausente")
+            st.markdown(":red_circle: Ausente")
             if causa:
                 st.caption(f"Causa: {causa}")
             st.caption(f"Justificada: {'Sí' if justificada else 'No'}")
